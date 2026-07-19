@@ -35,7 +35,7 @@ Checkout
 
 ## Main findings 
 
-- User session management issues: after session ecpiration, protected actions could still be performed before redirecting the user to the login page.
+- User session management issues: after session expiration, protected actions could still be performed before redirecting the user to the login page.
 - User data isolation issue: cart contents were shared between different user accounts.
 - Checkout validation issues, including the ability to complete an order with an empty cart.
 - UI and data display issues, including incorrect product images and incorrect checkout form behavior.
